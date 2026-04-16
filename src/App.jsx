@@ -14,7 +14,7 @@ function App() {
   const fetchSpots = async () => {
     try {
       const res = await fetch(
-        "https://cors-anywhere.herokuapp.com/https://chummy-starboard-avid.ngrok-free.dev/spots"
+        "https://chummy-starboard-avid.ngrok-free.dev/spots"
       );
       const data = await res.json();
       setSpots(data);
